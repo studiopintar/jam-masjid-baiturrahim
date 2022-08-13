@@ -314,12 +314,12 @@ Image credits: unsplash.com
 #left-container{
 	position:fixed;
 	top:0;
-	bottom:0;
+	bottom:10vh;
 	left:0;
 	width:26vw;
-	/* background-color:#fff; */
+	/*background-color:#fff; */
 	background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 20%, rgba(0,0,0,0.7) 100%);
-	box-shadow: 0 0 20vw 20vw rgba(0,0,0,0.7);
+	box-shadow: 0 0 20vw 15vw rgba(0,0,0,0.2);
 	/* background-image: url(../img/bg-pattern-01.png); */
 }
 #left-container:before{
@@ -330,8 +330,9 @@ Image credits: unsplash.com
 	right:0;
 	bottom:0;
 	left:0;
-	background-image: url(../img/bg-pattern-01.png);
-	opacity:0.6;
+	background-image: url(../img/hijau-unissula-mini.jpg);
+	/*background-image: url(../img/bg-pattern-01.png);*/
+	opacity:0.5;
 }
 
 #jam{
@@ -340,7 +341,7 @@ Image credits: unsplash.com
 	line-height: 0.8;
 	/* background:#F00; */
 	text-align: center;
-	margin:15vh 0 0 0;
+	margin:14vh 0 0 0;
 	padding:0 4vw 0 0;
 	/* font-family: 'OpenSansCondLight', Impact,'Times New Roman', Helvetica, Arial, sans-serif;  */
 	font-weight:bold;
@@ -352,7 +353,8 @@ Image credits: unsplash.com
 	top:0.2vw;
 	right:3vw;
 	/* background:#33cccc; */
-	color:#33cccc;
+	/*color:#33cccc;*/
+	color:#fdc81b;
 	line-height: 0.8;
 	width:4vw;
 	font-size:3vw;
@@ -397,6 +399,7 @@ Image credits: unsplash.com
 	position:relative;
 	padding-left:1.5vw;
 	width:50%;
+	color:#fdc81b;
 }
 #jadwal .row .col-xs-7{
 	font-size:3vw;
@@ -559,14 +562,15 @@ Image credits: unsplash.com
 }
 #running-text{
 	height:3.5vw;
-	width:70vw;
+	width:100vw;
 	color:#fff;
 	/* margin:3vh 3vw 4vh 3vw; */
-	background-color:rgba(51,204,204,0.2);
+	/*background-color:rgba(51,204,204,0.2);*/
+	background-color:rgba(4,54,44,0.6);
 	position:fixed;
 	bottom:2vh;
 	/* bottom:4vh; */
-	right:2vw;
+	right:0vw;
 	border-radius:5px;
 	
 	/* right:30vw; */
@@ -625,6 +629,39 @@ Image credits: unsplash.com
 	background-repeat: no-repeat;
 }
 
+#unissula{
+	height:3vw;
+	width:24vw;
+	position:fixed;
+	top:1.5vw;
+	left:1vw;
+	background-size: contain;
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+#fti{
+	height:6vw;
+	width:8vw;
+	position:fixed;
+	top:0.2vw;
+	left:27vw;
+	background-size: contain;
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+#tif{
+	height:8vw;
+	width:10vw;
+	position:fixed;
+	top:1vw;
+	left:34vw;
+	background-size: contain;
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
 .quote-carousel {
     /* position: relative; */
 	/* background-color:rgba(255,255,0,0.3); */
@@ -657,7 +694,8 @@ Image credits: unsplash.com
 .quote-carousel .text1{
 	text-transform: uppercase;
 	font-size: 3.3vw;
-	color:#33cccc;
+	/*color:#33cccc;*/
+	color:#fdc81b;
 }
 /* .quote-carousel .text2:before{
 	display: block;

@@ -88,6 +88,10 @@
 	
 	
 	<div id="left-container">
+		<div id="unissula" style="background-image: url(img/unissula-unggul-1.png);"></div>
+		<div id="fti" style="background-image: url(img/fti-transparan.png);"></div>
+		<div id="tif" style="background-image: url(img/logo_informatika.png);"></div>
+
 		<div id="jam"></div>
 		<div id="tgl"></div>
 		<div id="jadwal"></div>
@@ -102,6 +106,7 @@
 		</div>
 	</div>
 	<div id="right-container">
+		
 		<div id="quote">
 			<div class="carousel quote-carousel slide" data-ride="carousel" data-interval="<?=$info_timer?>" data-pause="null">
 			  <div class="carousel-inner">
