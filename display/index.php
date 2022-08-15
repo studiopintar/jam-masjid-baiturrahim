@@ -38,9 +38,9 @@
 		$wallpaper	.= '<div class="item slides '.$active.'"><div style="background-image: url(wallpaper/'.$v.');"></div></div>';
 		$i++;
 	}
+	$wallpaper .= '<div class="item slides video-wrapper"><video autoplay muted loop playsinline preload="metadata"><source src="http://www.adrianparr.com/download/keyboard-video.mp4" type="video/mp4"></video></div>';
 	// print_r($files);die;
 ?>
-
 
 <!doctype html>
 <html>
@@ -55,7 +55,17 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 	<style>
-		
+		.video-wrapper {
+		  width:100%;
+		  height:100vh;
+		  overflow: hidden;
+		  
+		  video {
+		    object-fit: cover;
+		    width:100%;
+		    height:100%;
+		  }
+		}
 	</style>
 </head>
 
@@ -91,7 +101,8 @@
 		<div id="unissula" style="background-image: url(img/unissula-unggul-1.png);"></div>
 		<div id="fti" style="background-image: url(img/fti-transparan.png);"></div>
 		<div id="tif" style="background-image: url(img/logo_informatika.png);"></div>
-
+		<div id="logo" style="background-image: url(logo/<?=$logo?>);"></div>
+		
 		<div id="jam"></div>
 		<div id="tgl"></div>
 		<div id="jadwal"></div>
@@ -132,7 +143,6 @@
 			  </div> 
 			</div>
 		</div>
-		<div id="logo" style="background-image: url(logo/<?=$logo?>);"></div>
 		<div id="running-text">
 			<div class="item">
 				<!-- <div class="text"> -->

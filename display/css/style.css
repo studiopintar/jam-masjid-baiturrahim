@@ -319,7 +319,7 @@ Image credits: unsplash.com
 	width:26vw;
 	/*background-color:#fff; */
 	background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 20%, rgba(0,0,0,0.7) 100%);
-	box-shadow: 0 0 20vw 15vw rgba(0,0,0,0.2);
+	/*box-shadow: 0 0 20vw 15vw rgba(0,0,0,0.2);*/
 	/* background-image: url(../img/bg-pattern-01.png); */
 }
 #left-container:before{
@@ -620,12 +620,12 @@ Image credits: unsplash.com
 	/* background-color: #f00; */
 	position:fixed;
 	/* bottom:-4vh; */
-	bottom:5.6vw;
+	top:0vw;
 	right:2vw;
 	/* background-color:#F00; */
 	/* background-image: url(../img/logo.png); */
 	background-size: contain;
-	background-position: right bottom;
+	background-position: right top;
 	background-repeat: no-repeat;
 }
 
@@ -677,7 +677,7 @@ Image credits: unsplash.com
 .quote-carousel .carousel-inner .item .hero {
     color: #fff;
     position: absolute;
-    top: 40%;
+    top: 55%;
     left: 50%;
 	transform: translate(-50%,-50%);
     /* z-index: 3; */
